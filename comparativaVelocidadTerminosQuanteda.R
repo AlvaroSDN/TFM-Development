@@ -6,9 +6,7 @@ setwd("~/GitHub/TFM-Development")
 
 currentCorpus <- "Airbus"
 corpusPath <- paste0(getwd(), "/data/corpus_data/", currentCorpus)
-corpus <- readRDS(paste0(corpusPath, "/processed/corpus/corpus.rds"))
 corpusTokens <- readRDS(paste0(corpusPath, "/processed/corpus/corpusTokens.rds"))
-corpusPagesTokens <- readRDS(paste0(corpusPath, "/processed/corpus/corpusPagesTokens.rds"))
 
 numRepetitions <- 50
 term1 <- "page"

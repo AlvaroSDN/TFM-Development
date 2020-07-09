@@ -6,7 +6,7 @@ setwd("~/GitHub/TFM-Development")
 source(paste0(getwd(), "/modules/multisearch.R"))
 source(paste0(getwd(), "/modules/multisearch_solr.R"))
 
-nameCorpus <- "Covid_200"
+nameCorpus <- "Covid_700"
 corpusPath <- paste0(getwd(), "/data/corpus_data/", nameCorpus)
 corpus <- readRDS(paste0(corpusPath, "/processed/corpus/corpus.rds"))
 corpusTokens <- readRDS(paste0(corpusPath, "/processed/corpus/corpusTokens.rds"))
