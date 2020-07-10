@@ -14,7 +14,7 @@ setwd("~/GitHub/TFM-Development")
 # setwd("/srv/shiny-server/InnoSpace")
 
 # Name of corpus file
-nameCorpus <- "PruebaCovid"
+nameCorpus <- "Covid5000"
 path_of_data <- paste0("/", nameCorpus)
 
 dir.create(paste0(getwd(),"/data/corpus_data/", nameCorpus, "/processed"))

@@ -66,4 +66,4 @@ ggplot(datosGrafica, aes(x=tokens, y=(times/1000000000), group = measureType, co
   geom_text(size = 7, aes(label= paste0(substring((times/1000000000), 0, 5), " s"), hjust=0.1, vjust=1.4)) +
   theme_light() +
   theme(text = element_text(size=32), plot.title = element_text(hjust = 0.5)) +
-  labs(title = "Comparativa tiempos de respuesta Quanteda - Solr", x = "Número de tokens", y = "Tiempo de respuesta (segundos)", colour = "Tipo:")
+  labs(x = "Número de tokens", y = "Tiempo de respuesta (segundos)", colour = "Tipo:")
